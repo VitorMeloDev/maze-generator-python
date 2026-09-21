@@ -93,7 +93,7 @@ def remove_walls(current,next):
 
 # for creating 1D list of grid of cells
 grid_cells = [Cell(col, row) for row in range(rows) for col in range(cols)]
-current_cell = grid_cells[0]
+current_cell = grid_cells[5]
 stack = []
 
 while True:
